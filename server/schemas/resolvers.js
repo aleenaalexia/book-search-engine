@@ -1,6 +1,6 @@
-const { User, User } = require('../models');
+const { User } = require('../models');
 const { signToken } = require('../utils/auth');
-const { AuthenticationError } = require('apolloserver-express');
+const { AuthenticationError } = require('apollo-server-express');
 
 const resolvers = {
     Query: {
@@ -26,9 +26,9 @@ const resolvers = {
                 throw new AuthenticationError('Incorrect username or password');
             }
             
-            const password = await user.Password(pass);
+            const PW = await user.Password(password);
 
-            if (!password) {
+            if (!PW) {
                 throw new AuthenticationError('Incorrect username or password');
 
             }
