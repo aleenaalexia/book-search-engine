@@ -6,7 +6,7 @@ Google Books API search engine built with a RESTful API, and refactored to be a 
 
 ## Screenshots
 
-![App Screenshot](./client/Screen%20Shot%202022-10-18%20at%207.40.32%20PM.png)
+![App Screenshot](https://res.cloudinary.com/dk8rcb4sl/image/upload/v1666147543/Screen_Shot_2022-10-18_at_7.40.32_PM_d5fxbe.png)
 
 
 ## Installation
